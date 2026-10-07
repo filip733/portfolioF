@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Janko Novák | Študentské portfólio</title>
+  <meta name="description" content="Študentské portfólio - projekty, zručnosti a kontakt. Školská práca." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#domov" class="logo">JN<span>.</span></a>
+      <nav class="links" id="navLinks">
+        <a href="#domov">Domov</a>
+        <a href="#o-mne">O mne</a>
+        <a href="#zrucnosti">Zručnosti</a>
+        <a href="#projekty">Projekty</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="domov" class="hero container">
+      <div class="hero-text">
+        <p class="badge">👋 Ahoj, som študent 3. ročníka SŠ</p>
+        <h1>Janko Novák<br /><span>Budúci web developer</span></h1>
+        <p class="subtitle">Študujem informatiku na Strednej priemyselnej škole. Baví ma tvorba webov, programovanie v Pythone a školské projekty. Toto portfólio som vytvoril ako školskú prácu.</p>
+        <div class="buttons">
+          <a href="#projekty" class="btn primary">Pozrieť projekty</a>
+          <a href="#kontakt" class="btn secondary">Kontaktuj ma</a>
+        </div>
+        <div class="hero-info">
+          <div><strong>6+</strong><small>školských projektov</small></div>
+          <div><strong>3</strong><small>roky programovania</small></div>
+          <div><strong>2026</strong><small>maturitný rok</small></div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="avatar">JN</div>
+        <h3>Janko Novák</h3>
+        <p>SPŠ Informatika • Trieda III.A</p>
+        <div class="tags">
+          <span>HTML/CSS</span><span>JavaScript</span><span>Python</span>
+        </div>
+        <a href="#o-mne" class="card-link">Viac o mne →</a>
+      </div>
+    </section>
+
+    <!-- O MNE -->
+    <section id="o-mne" class="section container">
+      <h2>O mne</h2>
+      <p class="section-sub">Krátke predstavenie pre učiteľa a spolužiakov</p>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Kto som?</h3>
+          <p>Volám sa Janko Novák, mám 17 rokov a študujem odbor Informačné technológie. Zaujímam sa o webdizajn, základy databáz a tvorbu prezentácií. Vo voľnom čase hrám florbal a učím sa angličtinu (B1).</p>
+          <ul class="list">
+            <li>🏫 <strong>Škola:</strong> SPŠ, odbor IT (2023 – 2027)</li>
+            <li>📍 <strong>Bydlisko:</strong> Žilina, Slovensko</li>
+            <li>🎯 <strong>Cieľ:</strong> maturita z informatiky a VŠ - aplikovaná informatika</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Vzdelanie a úspechy</h3>
+          <div class="timeline">
+            <div><strong>2023 – teraz:</strong> SPŠ – programovanie, web, databázy</div>
+            <div><strong>2025:</strong> Školské kolo Olympiády v informatike – 3. miesto</div>
+            <div><strong>2024:</strong> Certifikát – Základy Pythonu (48h kurz)</div>
+            <div><strong>2024:</strong> Prezentácia projektu „Smart škola" na DOD</div>
+          </div>
+          <a href="#" class="btn secondary small" onclick="alert('Tu si neskôr pridáš odkaz na svoje CV vo formáte PDF.');return false;">Stiahnuť CV (PDF)</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ZRUČNOSTI -->
+    <section id="zrucnosti" class="section gray">
+      <div class="container">
+        <h2>Zručnosti</h2>
+        <p class="section-sub">Čo som sa naučil v škole a doma</p>
+        <div class="skills">
+          <div class="skill-card">
+            <div class="skill-top"><span>HTML & CSS</span><span>85%</span></div>
+            <div class="bar"><div style="width:85%"></div></div>
+            <small>Responzívny dizajn, Flexbox, Grid – predmet WEB</small>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top"><span>JavaScript (základy)</span><span>65%</span></div>
+            <div class="bar"><div style="width:65%"></div></div>
+            <small>DOM, formuláre, fetch – vlastné mini projekty</small>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top"><span>Python</span><span>75%</span></div>
+            <div class="bar"><div style="width:75%"></div></div>
+            <small>Cykly, funkcie, súbory, základy OOP – predmet PRO</small>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top"><span>Databázy / SQL</span><span>60%</span></div>
+            <div class="bar"><div style="width:60%"></div></div>
+            <small>SELECT, JOIN, návrh tabuliek – predmet DAS</small>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top"><span>Prezentovanie & Office</span><span>90%</span></div>
+            <div class="bar"><div style="width:90%"></div></div>
+            <small>PowerPoint, Word, Canva – referáty a SOČ</small>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top"><span>Angličtina B1</span><span>70%</span></div>
+            <div class="bar"><div style="width:70%"></div></div>
+            <small>Čítanie dokumentácie, komunikácia</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJEKTY -->
+    <section id="projekty" class="section container">
+      <h2>Projekty</h2>
+      <p class="section-sub">Výber školských prác – nahraď vlastnými. Klikni na filter.</p>
+      <div class="filters">
+        <button class="filter active" data-filter="all">Všetky</button>
+        <button class="filter" data-filter="web">Web</button>
+        <button class="filter" data-filter="python">Python</button>
+        <button class="filter" data-filter="skola">Školské</button>
+      </div>
+      <div class="projects" id="projectGrid">
+        <article class="project" data-cat="web skola">
+          <div class="project-img">🌐</div>
+          <div class="project-body">
+            <span class="pill">WEB • HTML/CSS</span>
+            <h3>Web o mojej škole</h3>
+            <p>Semestrálna práca z predmetu WEB – 3-stranový responzívny web o škole, rozvrh a fotogaléria.</p>
+            <div class="project-footer"><span>2025 • Známka: 1</span><a href="#" onclick="return false">Detail →</a></div>
+          </div>
+        </article>
+        <article class="project" data-cat="python skola">
+          <div class="project-img">🐍</div>
+          <div class="project-body">
+            <span class="pill">Python</span>
+            <h3>Kvízová aplikácia</h3>
+            <p>Konzolový kvíz z matematiky s ukladaním skóre do súboru. Projekt z programovania.</p>
+            <div class="project-footer"><span>2025 • 120 riadkov kódu</span><a href="#" onclick="return false">Detail →</a></div>
+          </div>
+        </article>
+        <article class="project" data-cat="web">
+          <div class="project-img">📱</div>
+          <div class="project-body">
+            <span class="pill">JavaScript</span>
+            <h3>To-Do aplikácia</h3>
+            <p>Jednoduchá To-Do app s localStorage. Naučil som sa prácu s DOM a eventmi.</p>
+            <div class="project-footer"><span>2026 • Vlastný projekt</span><a href="#" onclick="return false">Detail →</a></div>
+          </div>
+        </article>
+        <article class="project" data-cat="skola python">
+          <div class="project-img">📊</div>
+          <div class="project-body">
+            <span class="pill">Databázy + Python</span>
+            <h3>Evidencia knižnice</h3>
+            <p>Databáza kníh v SQLite + jednoduché vyhľadávanie. Ročníkový projekt DAS + PRO.</p>
+            <div class="project-footer"><span>2026 • Tímový projekt</span><a href="#" onclick="return false">Detail →</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section id="kontakt" class="section gray">
+      <div class="container grid-2">
+        <div>
+          <h2>Kontakt</h2>
+          <p class="section-sub">Ozvi sa mi ohľadom školského projektu</p>
+          <div class="contact-list">
+            <div>📧 <strong>Email:</strong> janko.novak@skola.sk</div>
+            <div>📞 <strong>Tel:</strong> +421 900 123 456</div>
+            <div>🏫 <strong>Škola:</strong> SPŠ, trieda III.A</div>
+            <div>💻 <strong>GitHub:</strong> github.com/jankonovak</div>
+          </div>
+        </div>
+        <form class="card form" id="contactForm">
+          <label>Meno<input type="text" placeholder="Tvoje meno" required /></label>
+          <label>Email<input type="email" placeholder="email@priklad.sk" required /></label>
+          <label>Správa<textarea rows="4" placeholder="Ahoj Janko, ..." required></textarea></label>
+          <button type="submit" class="btn primary">Odoslať správu</button>
+          <p id="formMsg" class="form-msg"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2026 Janko Novák • Školské portfólio – účel: domáca úloha / prezentácia</p>
+      <a href="#domov">Späť hore ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
